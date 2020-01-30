@@ -30,3 +30,4 @@ with open("L1_T2.json", "w") as write_file:
 for artist in lastfm.json()['artists']['artist']:
     print('|{: ^25}|{: ^45}|'.format(artist['name'], artist['playcount']))
 
+#Test
